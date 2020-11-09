@@ -15,6 +15,15 @@
 
 ![](/animation-2.gif)
 
+
+## References
+- Chart.js - https://www.chartjs.org/docs/latest/charts/line.html
+- CSS Buttons - https://www.w3schools.com/css/css3_buttons.asp
+- Angular - https://cli.angular.io
+- WebSockets Related
+    - https://pusher.com/tutorials/angular-realtime
+    - https://blog.fullstacktraining.com/display-real-time-data-in-angular
+    - https://javascript-conference.com/blog/real-time-in-angular-a-journey-into-websocket-and-rxjs
 ----
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
 ## Development server

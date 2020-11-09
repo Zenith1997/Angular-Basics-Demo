@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { RootObject } from '../interfaces/responce';
 
 @Injectable({
   providedIn: 'root',
@@ -7,13 +8,13 @@ import { HttpClient } from '@angular/common/http';
 
 export class UpdateService {
 
-   public constructor(private httpClient: HttpClient) { }
+  public constructor(private httpClient: HttpClient) { }
 
-    public getUPdate(){
-     return   this.httpClient.get('https://hpb.health.gov.lk/api/get-current-statistical');
-    
-      }
+  public getLastNRecods(n : number){
+    return this.httpClient.get<RootObject[]>('https://hpblk-wrapper.herokuapp.com/all/' + n);
+  }
 
-    
-
+  public getLastRecod(){
+    return this.httpClient.get<RootObject[]>('https://hpblk-wrapper.herokuapp.com/all/' + 1);
+  }
 }
