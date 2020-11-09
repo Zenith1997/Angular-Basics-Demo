@@ -1,4 +1,4 @@
-# Corona History Visualizer
+# COVID-19 Sri Lanka History Visualizer
 
 ## Setup guide
 - Download and install NodeJs LTS Version from [here](https://nodejs.org/en/), or use this [direct link](https://nodejs.org/dist/v14.15.0/node-v14.15.0-x64.msi) to installer v14.15
